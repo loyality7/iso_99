@@ -1,0 +1,25 @@
+{
+  "name": "iso-99",
+  "version": "1.0.0",
+  "description": "Browser-based 3D Battle Royale using Three.js",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.1",
+    "three": "^0.185.1",
+    "typescript": "^7.0.2",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@colyseus/schema": "^4.0.27",
+    "@colyseus/sdk": "^0.17.43",
+    "colyseus": "^0.17.10",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
